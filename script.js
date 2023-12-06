@@ -1,4 +1,5 @@
 function firstWord(s) {
+s=s.trim();
     if (s === '' || !s.includes(' ')) {
         return s;
     } else {
